@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 821.47 406.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #45297a;
+        font-family: SIXFENCERegular, SIX-FENCE;
+        font-size: 214.96px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #006837;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 1.05px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: red;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        fill: #8cc63f;
+        stroke-width: .82px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g>
+      <text class="cls-1" transform="translate(0 351.19) scale(.95 .97)"><tspan x="0" y="0">E</tspan><tspan class="cls-8" x="133.28" y="0">K</tspan><tspan x="261.61" y="0">O</tspan><tspan class="cls-2" x="437.45" y="0">O</tspan><tspan class="cls-6" x="611.78" y="0">B</tspan><tspan class="cls-7" x="745.7" y="0">Y</tspan></text>
+      <g>
+        <polyline class="cls-3" points="426.17 192.99 389.87 197.33 422.26 211.35"/>
+        <polyline class="cls-3" points="438.02 193.45 464.47 207.14 434.11 211.81"/>
+        <polyline class="cls-5" points="444.24 155.73 439.85 181.14 436.46 207.97 432.03 230.14 426.19 255.89 409.28 267.5 407.98 247.33 418.49 217.3 425.71 197.7 432.86 157.43"/>
+        <path class="cls-4" d="M499,35.91l13.33-33.67,6.74,74.17-7.81,50.85-12.22,16.07-31.58,15.93-34.65,2.2-28.59-8.13-26.99-14.2-10.74-25.18,2.29-32.97,7.84-32.32,5.97-21.27s-.03-.99,3.31-.21c3.34.78,5.95,13.55,5.95,13.55l8.19,14.4,4.91,15.6,10.06,21.54,10.62,21.21,7.74,17.11,2.61,12.76-4.17,8.22-9.87,2.62-14.51-4.05-9.39-17.31-1.76-20.78,3.83-19.14,3.95-15.17,16.61-34.87,15.02-14.88,11.8-11.69,10.24-8.56,10.52.28,4.57,4.68,6.87,7.52,3.56,7.73,1.32,6.88,4.73,9.65,3.56,7.73,3.71,12.69,2.03,15.29,1.11,14.35-1.9,10.07-4.04,12.19-5.15,12.26-10.73,10.63-10.88,5.66-8.74,3.54-8.8,1.55-13.19,2.83"/>
+      </g>
+    </g>
+  </g>
+</svg>
