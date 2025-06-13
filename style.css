@@ -14,8 +14,8 @@
     --verde-ekooby: #006837;
     --branco: #FFFFFF;
     --preto: #000000;
-    --linha-roxa-clara: #B368D9; 
-}        
+    --linha-roxa-clara: #B368D9;
+}
 
 body {
     font-family: "Roboto Slab", serif;
@@ -24,9 +24,8 @@ body {
 
 .espacoLaterais {
     max-width: 1400px;
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 img {
@@ -36,9 +35,9 @@ img {
 }
 
 .linha-roxa-topo {
-    background-color: var(--linha-roxa-clara); 
+    background-color: var(--linha-roxa-clara);
     width: 100%;
-    padding: 15px 0; 
+    padding: 15px 0;
 }
 
 header {
@@ -46,12 +45,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    position: static; 
+    position: static;
     top: auto;
     left: auto;
     transform: none;
-    width: auto; 
-    max-width: none; 
+    width: auto;
+    max-width: none;
     z-index: 10;
 }
 
@@ -61,22 +60,25 @@ header {
 }
 
 .Logo-ekooby img {
-    width: 120px;
+    width: 160px;
     height: auto;
-    margin-right: 40px; 
+    margin-right: 40px;
 }
 
 #menu {
+    max-width: 700px;
+    width: 70%;
+
     display: flex;
-    gap: 40px;
-    align-items: center;
+    justify-content: space-between;
+
 }
 
 #menu a {
     text-decoration: none;
     font-family: "Roboto Slab", serif;
     font-weight: 600;
-    color: var(--roxo-ekooby); 
+    color: var(--branco);
     transition: color 0.3s ease;
 }
 
@@ -90,7 +92,7 @@ header {
     overflow: hidden;
 }
 
-.banner > img {
+.banner img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -98,16 +100,18 @@ header {
 }
 
 #sobre {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     gap: 40px;
-    padding: 80px 5%;
+    margin-top: 100px;
+
     align-items: center;
     background-color: #f8f8f8;
 }
 
 #sobre img {
-    border-radius: 80px;
+    max-width: 460px;
+    width: 40%;
+    border-radius: 90px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -116,19 +120,17 @@ header {
 }
 
 .conteudo-sobre .titulo {
-    display: block;
+    display: grid;
     font-family: "Roboto Slab", serif;
-    font-weight: 700;
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: var(--roxo-ekooby);
+
+    width: 100%;
+    color: var(--preto);
 }
 
 .conteudo-sobre p {
-    font-size: "RobotoSlab", regular;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto;
+    font-size: "RobotoSlab", serif;
+    text-align: justify;
+    margin-top: 30px;
 }
 
 .icones {
@@ -141,18 +143,176 @@ header {
 }
 
 .icones img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     object-fit: contain;
     margin: 20px;
-    transition: transform 0.3s ease;
+}
+
+.ekooby-temos {
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos h2 {
+    font-size: 20px;
+    font-family: "RobotoSlab", serif;
+    padding: 20px 75px;
+    background-color: var(--roxo-ekooby);
+    border-radius: 30px;
+    color: white;
+}
+
+.ekooby-temos img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 400px;
+    height: 400px;
+}
+
+.texto-temos h2 {
+    font-size: 20px;
+    font-family: "RobotoSlab", serif;
+    align-items: center;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    margin: 30px;
+    padding: 50px 20px;
+    border-radius: 40px;
+    border: solid 3px var(--roxo-ekooby);
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card h3{
+    font-size: 23px;
+    background-color: #45297a;
+    color: white;
+    padding: 20px 30px;
+    font-family: "RobotoSlab", serif;
+
+}
+
+.card img {
+    max-width: 460px;
+    width: 40%;
+    display: flex;
+    margin: 30px;
 }
 
 
-@media (min-width: 768px) {
+
+.kits {
+    margin-bottom: 120px;
+}
+
+.fotoskits{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotoskits img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 590px;
+
+    gap: 50px;
+    margin: 40px;
+}
+
+.fotoskits h2 {
+   font-size: 20px;
+    font-family: "RobotoSlab", serif;
+    align-items: center;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.pesquisa-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family:"RobotoSlab, serif";
+}
+
+.input-icone {
+    display: flex;
+    align-items: center;
+    background-color: var(--linha-roxa-clara); 
+    border-radius: 10px;
+    padding: 5px 10px;
+    flex: 1;
+    height: 40px;
+}
+
+.input-icone img {
+    width: 24px;
+    height: 24px;
+    background-color: var(--linha-roxa-clara);
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.input-icone input {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+}
+
+.pesquisa-container button {
+    background-color: var(--linha-roxa-clara); 
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pesquisa-container button:hover {
+    background-color: var(--roxo-ekooby); 
+}
+
+
+
+@media screen and (max-width: 768px) {
     #sobre {
-        grid-template-columns: 1fr 1fr;
-        text-align: left;
+        text-align: center;
     }
 
     .conteudo-sobre .titulo {
@@ -161,6 +321,7 @@ header {
 
     .conteudo-sobre p {
         margin: 0;
+        font-size: 13px;
     }
 
     .icones {
@@ -168,17 +329,17 @@ header {
     }
 }
 
-@media (min-width: 1024px) {
-    .banner > img {
+@media screen and (max-width: 1024px) {
+    .banner img {
         height: 500px;
     }
 
     .linha-roxa-topo {
-        padding: 20px 0; 
+        padding: 20px 0;
     }
 
     #menu a {
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     #sobre {
@@ -186,23 +347,17 @@ header {
     }
 
     .conteudo-sobre .titulo {
-        font-size: 3em;
+        font-size: 40px;
     }
 
     .conteudo-sobre p {
-        font-size: 1.2em;
+        font-size: 18px;
     }
 }
 
-@media (min-width: 1440px) {
-    .banner > img {
-        height: 600px;
+@media screen and (max-width: 1440px) {
+    .banner img {
+        height: 800px;
     }
 
 }
-
-
-
-
-
-
