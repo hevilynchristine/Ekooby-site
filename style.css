@@ -17,15 +17,17 @@
     --linha-roxa-clara: #B368D9;
 }
 
-body {
-    font-family: "Roboto Slab", serif;
-    color: var(--preto);
-}
-
 .espacoLaterais {
     max-width: 1400px;
     width: 80vw;
     margin: 0 auto;
+
+    
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    color: var(--preto);
 }
 
 img {
@@ -90,6 +92,7 @@ header {
     position: relative;
     width: 100%;
     overflow: hidden;
+     margin-bottom: 200px;
 }
 
 .banner img {
@@ -106,6 +109,7 @@ header {
 
     align-items: center;
     background-color: #f8f8f8;
+    margin-bottom: 200px;
 }
 
 #sobre img {
@@ -135,11 +139,12 @@ header {
 
 .icones {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     padding: 60px 5%;
     background-color: var(--branco);
+    margin-bottom: 100px;
 }
 
 .icones img {
@@ -155,6 +160,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 250px; 
 
 }
 
@@ -194,6 +200,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 188px;
 }
 
 .card {
@@ -212,7 +219,7 @@ header {
 
 }
 
-.card h3{
+.card h3 {
     font-size: 23px;
     background-color: #45297a;
     color: white;
@@ -228,50 +235,23 @@ header {
     margin: 30px;
 }
 
-
-
-.kits {
-    margin-bottom: 120px;
-}
-
-.fotoskits{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.fotoskits img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 590px;
-
-    gap: 50px;
-    margin: 40px;
-}
-
-.fotoskits h2 {
-   font-size: 20px;
-    font-family: "RobotoSlab", serif;
-    align-items: center;
-    text-align: center;
-    margin: 10px 20px;
-}
-
 .pesquisa-container {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family:"RobotoSlab, serif";
+    font-family: "RobotoSlab, serif";
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 200px;
 }
+
 
 .input-icone {
     display: flex;
     align-items: center;
-    background-color: var(--linha-roxa-clara); 
+    background-color: var(--linha-roxa-clara);
     border-radius: 10px;
     padding: 5px 10px;
-    flex: 1;
     height: 40px;
 }
 
@@ -294,7 +274,7 @@ header {
 }
 
 .pesquisa-container button {
-    background-color: var(--linha-roxa-clara); 
+    background-color: var(--linha-roxa-clara);
     border: none;
     color: white;
     font-weight: bold;
@@ -305,8 +285,54 @@ header {
 }
 
 .pesquisa-container button:hover {
-    background-color: var(--roxo-ekooby); 
+    background-color: var(--roxo-ekooby);
 }
+
+.input-icone input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+
+footer {
+    margin-top: 60px;
+}
+
+
+.linha-roxa-final {
+    background-color: var(--linha-roxa-clara);
+    width: 100%;
+    padding: 15px 0;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.rodape img {
+    width: 300px;
+    height: auto;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+.icones-redes-sociais a {
+    font-size: 150px;
+    color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -361,3 +387,4 @@ header {
     }
 
 }
+
