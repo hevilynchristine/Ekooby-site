@@ -325,16 +325,20 @@ footer {
     gap: 20px;
 }
 
+.icones-redes-sociais svg{
+    width: 35px; 
+    height: 35px;
+}
+
+
 .icones-redes-sociais a {
-    font-size: 150px;
     color: var(--preto);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
-
+/* ----------Responsividade---------- */
 
 @media screen and (max-width: 768px) {
     #sobre {
